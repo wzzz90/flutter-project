@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
 import '../pages/Tabs.dart';
-import '../pages/AppBarDemo.dart';
-import '../pages/TabBarController.dart';
-import '../pages/User.dart';
+import '../pages/Button.dart';
+import '../pages/TextField.dart';
 
 final routes = {
   '/': (context) => Tabs(),
-  '/appbar': (context) => AppbarPage(),
-  '/tabcontroll': (context) => TabBarControllerPage(),
-  '/user': (context) => UserPage()
+  '/textfield': (context) => TextFieldPage(),
 };
 
 

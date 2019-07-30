@@ -24,6 +24,12 @@ class _HomepageState extends State<Homepage> {
             Navigator.pushNamed(context, '/tabcontroll');
           },
         ),
+        RaisedButton(
+          child: Text('表单演示页面'),
+          onPressed: () {
+            Navigator.pushNamed(context, '/textfield');
+          },
+        ),
       ],
     );
   }
